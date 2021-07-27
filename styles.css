@@ -31,7 +31,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-li{
+.header-links{
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -39,9 +39,21 @@ li{
     font-size: 18px;
     margin: 10px;
 }
-li a{
+.header-links a{
     text-decoration: none;
     color: white;
+}
+.header-link{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    margin: 10px;
+}
+.header-link a{
+    text-decoration: none;
+    color: black;
 }
 .btn{
     background-color: white;
@@ -219,3 +231,29 @@ li a{
   }
   
   /*Client testimonial section*/
+
+
+
+
+
+  /*footer*/
+  footer{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  ul.footer-nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li.footer-nav{
+      display: inline-block;
+      color:black;
+  }
+  .footer-nav-links{
+      color: black;
+  }
