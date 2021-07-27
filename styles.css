@@ -129,10 +129,11 @@ li a{
   }
   .cta-txt{
       padding: 0 5px;
-      margin-top:2%;
-      width: 25%;
+      margin-top:5%;
+      width: 30%;
       font-family: 'Fraunces', serif;
         font-size: 15px;
+    text-transform: uppercase;
         background: linear-gradient(
             to bottom,
             transparent 50%,
