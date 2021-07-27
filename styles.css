@@ -96,30 +96,31 @@ li a{
       flex-direction: row;
       justify-content: space-between;
       height: 600px;
+      width: 100%;
   }
   .row-2{
     display:flex;
     flex-direction: row;
-    border: 1px solid black;
-    padding: 5%;
+    width: 100%;
   }
   .row-3{
     display:flex;
     flex-direction: row;
-    border: 1px solid black;
-    padding: 5%;
+    width: 100%;
   }
   .column-1{
       display:flex;
       flex-direction: column;
+      width: 100%;
   }
   .column-2{
       display: flex;
       flex-direction: column;
+      width:100%;
   }
   .box-1{
       height: 600px;
-      width: 720px;
+      width: 50%;
       display: flex;
       justify-content: center;
   }
@@ -146,7 +147,7 @@ li a{
       background-repeat: no-repeat;
       background-size: cover;
       height: 600px;
-      width:720px;
+      width:50%;
   }
   h2{
     font-family: 'Fraunces', serif;
@@ -158,3 +159,63 @@ li a{
     font-size: 18px;
     line-height: 30px;
   }
+
+  .box-3{
+    background-image: url('../images/desktop/image-stand-out.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width:50%;  
+  }
+  .txt-2{
+      display: flex;
+      justify-content: center;
+      margin-left: 10%;
+      width: 30%;
+  }
+  .cta-txt-2{
+        padding: 0 5px;
+        margin-top:5%;
+        width: 30%;
+        font-family: 'Fraunces', serif;
+          font-size: 15px;
+      text-transform: uppercase;
+          background: linear-gradient(
+              to bottom,
+              transparent 50%,
+              #FE7766 50%
+          )
+  }
+  .box-4{
+    background-image: url('../images/desktop/image-graphic-design.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px; 
+    width: 100%;   
+  }
+  .txt-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50%;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+  }
+  h3{
+    font-family: 'Fraunces', serif;
+    font-size: 28px; 
+    padding-bottom: 5%;;
+  }
+  .box-5{
+    background-image: url('../images/desktop/image-photography.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px; 
+    width: 100%;   
+  }
+  
+  /*Client testimonial section*/
