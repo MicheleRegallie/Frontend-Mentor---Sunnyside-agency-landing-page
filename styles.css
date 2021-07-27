@@ -87,3 +87,72 @@ li a{
 
 
   /*two column section body styles*/
+  .wrapper{
+    margin: 0 auto;  
+  }
+
+  .row-1{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 600px;
+  }
+  .row-2{
+    display:flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 5%;
+  }
+  .row-3{
+    display:flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 5%;
+  }
+  .column-1{
+      display:flex;
+      flex-direction: column;
+  }
+  .column-2{
+      display: flex;
+      flex-direction: column;
+  }
+  .box-1{
+      height: 600px;
+      width: 720px;
+      display: flex;
+      justify-content: center;
+  }
+  .txt-1{
+      width: 30%;
+      margin-left: 10%;
+  }
+  .cta-txt{
+      padding: 0 5px;
+      margin-top:2%;
+      width: 25%;
+      font-family: 'Fraunces', serif;
+        font-size: 15px;
+        background: linear-gradient(
+            to bottom,
+            transparent 50%,
+            #fad400 50%
+        )
+  }
+  .box-2{
+      background-image: url('../images/desktop/image-transform.jpg') ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width:720px;
+  }
+  h2{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    padding-bottom: 5%;
+  }
+  p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+  }
