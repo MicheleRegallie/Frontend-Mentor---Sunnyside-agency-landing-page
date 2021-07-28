@@ -354,6 +354,17 @@ span.client-image{
     text-decoration: none;
     color: #458D7E;
 }
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.socials img{
+    height: 20px;
+    width:20px;
+    padding: 5%;
+    margin-top: 30%;
+}
 .attribution{
     padding-top: 3%;
     font-size: 11px; 
