@@ -231,10 +231,77 @@ ul{
   }
   
   /*Client testimonial section*/
-
-
-
-
+section.testimonials{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height:auto;
+    padding-bottom: 5%;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    color: #A7AAAD;
+    text-transform: uppercase;
+}
+.clients{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    width: 100%;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    width: 30%;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    width: 30%;
+}
+.card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2%;
+    width: 30%;
+}
+.feedback{
+    text-align:center;
+    padding-bottom: 10%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: #5B636D;
+}
+.name{
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    color: #24303E;
+}
+.title{
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color:#A7AAAD;
+}
+.client-image img{
+    border-radius: 50%;
+    height: 72px;
+    width: 72px;
+}
+span.client-image{
+    padding-bottom:10%;
+}
 
   /*footer*/
   footer{
