@@ -237,7 +237,7 @@ section.testimonials{
     justify-content: center;
     width: 100%;
     height:auto;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 h4{
     display: flex;
@@ -302,6 +302,26 @@ h4{
 span.client-image{
     padding-bottom:10%;
 }
+/*Image Row Section*/
+.images{
+    margin: 0 auto;
+}
+.image-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    width:100%;
+    box-sizing: border-box;
+}
+.img img{
+    height: 447px;
+    width: 379px;
+    object-fit: cover;
+    margin-right: 0;
+    float:left;
+}
+
 
   /*footer*/
   footer{
@@ -324,3 +344,14 @@ span.client-image{
   .footer-nav-links{
       color: black;
   }
+
+  /*Media Queries*/
+
+
+
+
+
+
+
+
+
