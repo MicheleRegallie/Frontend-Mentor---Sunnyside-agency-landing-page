@@ -303,23 +303,14 @@ span.client-image{
     padding-bottom:10%;
 }
 /*Image Row Section*/
-.images{
-    margin: 0 auto;
-}
+
 .image-row{
     display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: center;
     width:100%;
-    box-sizing: border-box;
 }
 .img img{
-    height: 447px;
-    width: 379px;
-    object-fit: cover;
-    margin-right: 0;
-    float:left;
+    width: 25%;
+    float: left;
 }
 
 
@@ -383,7 +374,7 @@ span.client-image{
       color: black;
   }*/
 
-  /*Media Queries*/
+  /*Media Queries for mobile layout*/
 
 
 
