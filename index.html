@@ -50,11 +50,11 @@
 
 <body>
   <header id="header-background">
-      <div class="navigation">
-      <span class="logo">
+      <div class="navigation topnav">
+      <span class="logo active">
         <img src="./images/logo.svg" alt="Sunnyside logo text">
       </span>
-      <nav>
+      <nav id="myLinks">
       <ul>
   <li class="header-links"><a href="#">About</a></li>
   <li class="header-links"><a href="#">Services</a></li>
@@ -62,6 +62,10 @@
   <li class="header-link"><a href="#" class="btn">Contact</a></li>
       </ul>
     </nav>
+    <!--"Hamburger menu"/ "Bar icon to toggle the navigation links"-->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <img src="./images/icon-hamburger.svg" alt="Hamburger Icon">
+    </a>
   </div>
 
   <div class="header-txt">

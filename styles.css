@@ -375,8 +375,147 @@ span.client-image{
   }*/
 
   /*Media Queries for mobile layout*/
+  @media all and (max-width: 1101px) { 
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding: 2%;
+    }
+    nav{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+      }
+      .cta-txt{
+        padding: 0 5px;
+        margin-top:5%;
+        width: 40%;
+        font-family: 'Fraunces', serif;
+          font-size: 15px;
+      text-transform: uppercase;
+          background: linear-gradient(
+              to bottom,
+              transparent 50%,
+              #fad400 50%
+          )
+    }
+    .cta-txt-2{
+        padding: 0 5px;
+        margin-top:5%;
+        width: 40%;
+        font-family: 'Fraunces', serif;
+          font-size: 15px;
+      text-transform: uppercase;
+          background: linear-gradient(
+              to bottom,
+              transparent 50%,
+              #FE7766 50%
+          )
+  }
+   }
+   @media all and (max-width: 906px) {
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding: 2%;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+      }
+      .cta-txt{
+        padding: 0 5px;
+        margin-top:5%;
+        width: 60%;
+        font-family: 'Fraunces', serif;
+          font-size: 15px;
+      text-transform: uppercase;
+          background: linear-gradient(
+              to bottom,
+              transparent 50%,
+              #fad400 50%
+          )
+    }
+    .cta-txt-2{
+        padding: 0 5px;
+        margin-top:5%;
+        width: 60%;
+        font-family: 'Fraunces', serif;
+          font-size: 15px;
+      text-transform: uppercase;
+          background: linear-gradient(
+              to bottom,
+              transparent 50%,
+              #FE7766 50%
+          )
+  } 
+    }
+    @media all and (max-width: 380px) { 
+        .topnav {
+            overflow: hidden;
+            position: relative;
+          }
+          .topnav #myLinks {
+            display: none;
+          }
+          .topnav a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+          }
+          .topnav a.icon {
+            display: block;
+            position: relative;
+            right: 0;
+            top: 0;
+          }
+          .topnav a:hover {
+            color: black;
+          }
+          .active {
+            color: white;
+            margin-left: 2%;
+          }
+          .header-txt{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            margin-top: 20%;
+            text-align: center;
+        }
+        h1{
+            font-size: 40px;
+            color: white;
+            font-family: 'Fraunces', serif;
+            padding: 5%;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+     /* two column section*/
+     
+     
 
 
+
+     /*Client testimonial section*/
+
+
+
+     /*image row section*/
+
+
+     /*footer*/
+     }
 
 
 
